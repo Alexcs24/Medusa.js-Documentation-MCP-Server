@@ -1,0 +1,24 @@
+{
+  "searchDefaults": {
+    "maxResults": 5,
+    "threshold": 0.4,
+    "minMatchCharLength": 3
+  },
+  "listDefaults": {
+    "maxSections": 50
+  },
+  "server": {
+    "name": "medusa-docs-mcp",
+    "version": "1.0.0"
+  },
+  "documentation": {
+    "previewLength": 500,
+    "fallbackPaths": [
+      "docs/medusa-docs.txt",
+      "llms-full.txt",
+      "../llms-full.txt",
+      "../../llms-full.txt",
+      "/home/claude/llms-full.txt"
+    ]
+  }
+}

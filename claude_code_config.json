@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "medusa-docs": {
+      "command": "node",
+      "args": ["./dist/index.js"],
+      "env": {
+        "MEDUSA_DOCS_PATH": "./docs/medusa-docs.txt"
+      }
+    }
+  }
+}
