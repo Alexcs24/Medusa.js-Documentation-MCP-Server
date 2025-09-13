@@ -32,7 +32,7 @@ A powerful **Model Context Protocol (MCP) server** that gives your AI assistants
 ```bash
 # Clone the repository
 git clone https://github.com/Alexcs24/Medusa.js-Documentation-MCP-Server
-cd medusa-docs-mcp
+cd Medusa.js-Documentation-MCP-Server
 
 # Install dependencies
 npm install
