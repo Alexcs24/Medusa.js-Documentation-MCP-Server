@@ -21,6 +21,7 @@ A powerful **Model Context Protocol (MCP) server** that gives your AI assistants
 - **npm** or **yarn**
 - **AI Assistant** with MCP support:
   - [Claude Code (CLI)](https://claude.ai/code) ✅ **Tested & Working**
+  - [Kilo Code](https://kilocode.ai/) ✅ **Tested & Working**
   - [Cursor](https://cursor.sh/)
   - [Windsurf](https://codeium.com/windsurf)
   - Or any MCP-compatible client
