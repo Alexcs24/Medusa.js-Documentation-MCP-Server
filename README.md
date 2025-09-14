@@ -68,9 +68,9 @@ Add this configuration:
   "mcpServers": {
     "medusa-docs": {
       "command": "node",
-      "args": ["/absolute/path/to/medusa-docs-mcp/dist/index.js"],
+      "args": ["/absolute/path/to/Medusa.js-Documentation-MCP-Server/dist/index.js"],
       "env": {
-        "MEDUSA_DOCS_PATH": "/absolute/path/to/medusa-docs-mcp/docs/medusa-docs.txt"
+        "MEDUSA_DOCS_PATH": "/absolute/path/to/Medusa.js-Documentation-MCP-Server/docs/medusa-docs.txt"
       }
     }
   }
@@ -94,7 +94,7 @@ Add to your Cursor settings (`settings.json`):
     "mcpServers": {
       "medusa-docs": {
         "command": "node",
-        "args": ["/absolute/path/to/medusa-docs-mcp/dist/index.js"],
+        "args": ["/absolute/path/to/Medusa.js-Documentation-MCP-Server/dist/index.js"],
         "env": {
           "MEDUSA_DOCS_PATH": "/absolute/path/to/docs/medusa-docs.txt"
         }
@@ -112,7 +112,7 @@ Create or edit `windsurf-mcp-config.json`:
   "mcpServers": {
     "medusa-docs": {
       "command": "node",
-      "args": ["/absolute/path/to/medusa-docs-mcp/dist/index.js"],
+      "args": ["/absolute/path/to/Medusa.js-Documentation-MCP-Server/dist/index.js"],
       "env": {
         "MEDUSA_DOCS_PATH": "/absolute/path/to/docs/medusa-docs.txt"
       }
@@ -286,7 +286,7 @@ MEDUSA_DOCS_PATH="/path/to/docs.txt" DEBUG=1 node dist/index.js
 ## 📁 Project Structure
 
 ```
-medusa-docs-mcp/
+Medusa.js-Documentation-MCP-Server/
 ├── src/
 │   └── index.ts              # Main MCP server implementation
 ├── dist/                     # Compiled JavaScript (auto-generated)
@@ -361,7 +361,7 @@ All server settings can be customized in `config.json`:
 ```bash
 # Fix file permissions
 chmod 644 /path/to/docs/medusa-docs.txt
-chmod +x /path/to/medusa-docs-mcp/dist/index.js
+chmod +x /path/to/Medusa.js-Documentation-MCP-Server/dist/index.js
 ```
 
 ### Debug connection issues
